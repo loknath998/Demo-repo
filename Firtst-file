@@ -13,3 +13,8 @@ for(i=10; i>0; i--)
 {
   print(i);
 }
+
+lets modify this branch by adding a hello function to it
+function hello(){
+  print("hello from gihub");
+}

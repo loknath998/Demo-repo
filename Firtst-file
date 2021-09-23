@@ -28,10 +28,12 @@ class MyClass{
   int rollno;
   String name;
   String address;
-  MyClass(int rollno,String name, String address)
+  boolean vaccinated;
+  MyClass(int rollno,String name, String address, boolean vaccinated)
   {
     this.rollno = rollno;
     this.Name = name;
     this.address = address;
+    this.vaccinated = vaccinated;
   }
 }

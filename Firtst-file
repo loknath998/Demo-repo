@@ -26,5 +26,12 @@ mehool here updating the file
 
 class MyClass{
   int rollno;
-  String Name;
+  String name;
+  String address;
+  MyClass(int rollno,String name, String address)
+  {
+    this.rollno = rollno;
+    this.Name = name;
+    this.address = address;
+  }
 }

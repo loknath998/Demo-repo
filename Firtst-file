@@ -22,3 +22,9 @@ function hello(){
 }
 
 mehool here updating the file
+
+
+class MyClass{
+  int rollno;
+  String Name;
+}
